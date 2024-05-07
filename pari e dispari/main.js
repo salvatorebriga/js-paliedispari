@@ -42,8 +42,10 @@ do{
 
 }while(input == false);
 
+/*chiamata alla funzione passando la scelta e il numero come parametri*/
 myEvenOrOddCheck(userChoice, userNumber);
 
+/*funzione di controllo del pari o dispari*/
 function myEvenOrOddCheck(functionChoice, functionNumber){
     let computerNumber = Math.floor(Math.random() * (5 - 1) + 1);
     console.log('Numero del computer: ' + computerNumber);
